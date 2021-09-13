@@ -29,7 +29,7 @@ public class Initialization {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
-        driver.get("https://storefront:Stuart123@staging-ca.stuartweitzman.com/");
+        driver.get("https:*");
         return driver;
 
     }
